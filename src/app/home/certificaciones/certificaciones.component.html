@@ -1,0 +1,55 @@
+<ion-header>
+  <app-encabezado></app-encabezado>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar id="actualizaciones">
+    <ion-title id="espacio">Certificaciones</ion-title>
+    <ion-title id="letra">¿Que certificaciones tienes?</ion-title>
+  </ion-toolbar>
+
+  <form>
+    <ion-title>El nombre de quien certifica</ion-title>
+    <input type="text" id="nombre" name="nombre" placeholder="Indica el nombre">
+  </form>
+
+  <form>
+    <ion-title>Area de conocimiento</ion-title>
+    <input type="text" id="nombre" name="area" placeholder="Campo profesional">
+  </form>
+
+  <form>
+    <ion-title>Empresa o institucion</ion-title>
+    <input type="text" id="nombre" name="empresa" placeholder="Nombre de la empresa">
+  </form>
+
+  <label for="fecha">Fecha Inicio</label>
+  <input type="date" id="fecha" name="fecha"><br><br>
+
+  <label for="fecha">Fecha Termino</label>
+  <input type="date" id="fecha" name="fecha">
+
+
+  <form>
+    <ion-title>Duracion</ion-title>
+    <input type="text" id="nombre" name="duracion" placeholder="Indica las horas">
+  </form>
+
+  <ion-button [routerLink]="'cuerpo'" block color="primary" type="submit">
+    Regresar
+  </ion-button>
+
+
+  <ion-button [routerLink]="'certificaciones'" block color="primary" type="submit">
+    Añadir
+  </ion-button>
+
+  <ion-button [routerLink]="'certificaciones'" block color="primary" type="submit">
+    Continuar
+  </ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <app-pie></app-pie>
+</ion-footer>

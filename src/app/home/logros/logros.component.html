@@ -1,0 +1,46 @@
+<ion-header>
+  <app-encabezado></app-encabezado>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar id="actualizaciones">
+    <ion-title id="espacio">Logros</ion-title>
+    <ion-title id="letra">Hablanos de tus logros</ion-title>
+  </ion-toolbar>
+
+  <form>
+    <ion-title>Reconocimiento</ion-title>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre del reconocimiento">
+  </form>
+
+  <form>
+    <ion-title>Empresa o Institucion</ion-title>
+    <input type="text" id="nombre" name="area" placeholder="Nombre de la institucion">
+  </form>
+
+  <form>
+    <ion-title>Razón</ion-title>
+    <input type="text" id="nombre" name="empresa" placeholder="Razon del reconocimiento">
+  </form><br>
+
+  <label for="fecha">Año</label>
+  <input type="date" id="fecha" name="fecha"> <br><br>
+
+  <ion-button [routerLink]="'cuerpo'" block color="primary" type="submit">
+    Regresar
+  </ion-button>
+
+
+  <ion-button [routerLink]="'certificaciones'" block color="primary" type="submit">
+    Añadir
+  </ion-button>
+
+  <ion-button [routerLink]="'certificaciones'" block color="primary" type="submit">
+    Continuar
+  </ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <app-pie></app-pie>
+</ion-footer>

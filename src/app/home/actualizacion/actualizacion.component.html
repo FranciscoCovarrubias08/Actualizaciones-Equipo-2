@@ -1,0 +1,28 @@
+<ion-header>
+  <app-encabezado></app-encabezado>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar id="actualizaciones">
+    <ion-title id="espacio">Agregar Actualizaciones</ion-title>
+    <ion-title id="letra">¿Te gustaria agregar alguna</ion-title>
+    <ion-title id="letra">de estas secciones a tu CV?</ion-title>
+  </ion-toolbar>
+
+  <ion-checkbox></ion-checkbox>Certificaciones
+  <ion-checkbox></ion-checkbox>Logros 
+  <ion-checkbox></ion-checkbox>Idiomas
+
+  <ion-button [routerLink]="'cuerpo'" block color="primary" type="submit">
+    Regresar
+  </ion-button>
+
+  <ion-button [routerLink]="'certificaciones'" block color="primary" type="submit">
+    Continuar
+  </ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <app-pie></app-pie>
+</ion-footer>
