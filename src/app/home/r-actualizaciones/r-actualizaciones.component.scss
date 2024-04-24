@@ -1,11 +1,4 @@
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 2;
-    padding: 2;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -16,48 +9,29 @@ body {
     background-color: rgb(245, 245, 245);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.box {
-    display: flex;
-    flex-direction: row;
-
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.info-box {
+  }
+  .info-box {
     background-color: #f9f9f9;
     padding: 11px;
     margin-bottom: 11px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(8, 35, 184, 0.1);
-}
-
-.close-button {
+  }
+  
+  .close-button {
     font-size: 29px;
     text-align: center;
     width: 65px;
     height: 47px;
     line-height: 37px;
-    padding: 13px;
-    background-color: #ff0404;
-    border-radius: 45px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 8px;
-}
-
-.button {
+  }
+  
+  .button {
     background-color: rgb(22, 167, 211);
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 7px;
     cursor: pointer;
-}
+  }
